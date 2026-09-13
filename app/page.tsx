@@ -1,3 +1,4 @@
+import SiteHeader from "@/app/site-header";
 import { getLessons } from "@/lib/course-data";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
 
   return (
     <main>
+      <SiteHeader />
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">Pro Photo Skills · Kurs 12</p>
