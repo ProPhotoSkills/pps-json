@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel – Alle Kapitel</title>
+<style>
+  :root {
+    --pps-schwarz: #0a1211;
+    --pps-rot: #d73c1c;
+    --pps-gelb: #F8E800;
+    --pps-akzent: #95be2f;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    color: var(--pps-schwarz);
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  .pps-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  h1.pps-page-title {
+    font-size: 40px;
+    margin: 0 0 8px;
+  }
+  .pps-page-sub {
+    color: #555;
+    font-size: 16px;
+    margin: 0 0 40px;
+  }
+  .pps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+  }
+  .pps-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted #ccc;
+    border-radius: 6px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .pps-card:hover {
+    border-color: var(--pps-akzent);
+    transform: translateY(-2px);
+  }
+  .pps-card-hero {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    display: block;
+  }
+  .pps-card-noimg {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f4f4;
+    color: #b0b0b0;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .pps-card-body {
+    padding: 16px 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .pps-card-kapitel {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--pps-akzent);
+  }
+  .pps-card-title {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0;
+  }
+</style>
+</head>
+<body>
+<div class="pps-wrap">
+
+  <h1 class="pps-page-title">Travel</h1>
+  <p class="pps-page-sub">Alle 15 Kapitel dieses Moduls im Überblick</p>
+
+  <div class="pps-grid">
+
+    <a class="pps-card" href="https://prophotoskills.github.io/content/t10_l01_reiseplanung-fuer-kreative/index.html">
+      <img class="pps-card-hero" src="https://prophotoskills.github.io/pps-assets/images/T10_L01_reiseplanung-fuer-kreative_3_1553x1024_k.webp" alt="Reiseplanung für Kreative">
+      <div class="pps-card-body">
+        <span class="pps-card-kapitel">Kapitel 1</span>
+        <h2 class="pps-card-title">Reiseplanung für Kreative</h2>
+      </div>
+    </a>
+
+    <a class="pps-card" href="https://prophotoskills.github.io/content/t10_l02_flughafen-vs-bahn-vs-auto-welches-transportmittel-wann-sinn-macht/index.html">
+      <img class="pps-card-hero" src="https://prophotoskills.github.io/pps-assets/images/T10_L02_flughafen-vs-bahn-vs-auto_2_1553x1024_k.webp" alt="Flughafen vs. Bahn vs. Auto – welches Transportmittel wann Sinn macht">
+      <div class="pps-card-body">
+        <span class="pps-card-kapitel">Kapitel 2</span>
+        <h2 class="pps-card-title">Flughafen vs. Bahn vs. Auto – welches Transportmittel wann Sinn macht</h2>
+      </div>
+    </a>
+
+    <a class="pps-card" href="https://prophotoskills.github.io/content/t10_l03_das-unsichtbare-handgepaeck-was-immer-in-deiner-tasche-sein-muss/index.html">
+      <img class="pps-card-hero" src="https://prophotoskills.github.io/pps-assets/images/T10_L03_das-unsichtbare-handgepaeck_3_1553x1024_k.webp" alt="Das unsichtbare Handgepäck – was immer in deiner Tasche sein muss">
+      <div class="pps-card-body">
+        <span class="pps-card-kapitel">Kapitel 3</span>
+        <h2 class="pps-card-title">Das unsichtbare Handgepäck – was immer in deiner Tasche sein muss</h2>
+      </div>
+    </a>
+
+    <a class="pps-card" href="https://prophotoskills.github.io/content/t10_l04_jetlag-management-energie-trotz-zeitverschiebung/index.html">
+      <img class="pps-card-hero" src="https://prophotoskills.github.io/pps-assets/images/T10_L04_jetlag-management_1553x1024_k.webp" alt="Jetlag-Management – Energie trotz Zeitverschiebung">
+      <div class="pps-card-body">
+        <span class="pps-card-kapitel">Kapitel 4</span>
+        <h2 class="pps-card-title">Jetlag-Management – Energie trotz Zeitverschiebung</h2>
+      </div>
+    </a>
+
+    <a class="pps-card" href="https://prophotoskills.github.io/content/t10_l05_transport-von-equipment-sicher-packen-und-clever-deklarieren/index.html">
+      <img class="pps-card-hero" src="https://prophotoskills.github.io/pps-assets/images/T10_L05_transport-von-equipment_5_1553x1024_k.webp" alt="Transport von Equipment – sicher packen und clever deklarieren">
+      <div class="pps-card-body">
+        <span class="pps-card-kapitel">Kapitel 5</span>
+        <h2 class="pps-card-title">Transport von Equipment – sicher packen und clever deklarieren</h2>
+      </div>
+    </a>
+
+    <a class="pps-card" href="https://prophotoskills.github.io/content/t10_l06_visa-zoll-wie-du-stress-an-grenzen-vermeidest/index.html">
+      <img class="pps-card-hero" src="https://prophotoskills.github.io/pps-assets/images/T10_L06_visa-zoll_1553x1024_k.webp" alt="Visa & Zoll – wie du Stress an Grenzen vermeidest">
+      <div class="pps-card-body">
+        <span class="pps-card-kapitel">Kapitel 6</span>
+        <h2 class="pps-card-title">Visa & Zoll – wie du Stress an Grenzen vermeidest</h2>
+      </div>
+    </a>
+
+    <a class="pps-card" href="https://prophotoskills.github.io/content/t10_l07_shooting-im-ausland-kulturelle-codes-und-dos-donts/index.html">
+      <img class="pps-card-hero" src="https://prophotoskills.github.io/pps-assets/images/T10_L07_shooting-im-ausland_1553x1024_k.webp" alt="Shooting im Ausland – kulturelle Codes und Do’s & Don’ts">
+      <div class="pps-card-body">
+        <span class="pps-card-kapitel">Kapitel 7</span>
+        <h2 class="pps-card-title">Shooting im Ausland – kulturelle Codes und Do’s & Don’ts</h2>
+      </div>
+    </a>
+
+    <a class="pps-card" href="https://prophotoskills.github.io/content/t10_l08_travel-light-vs-full-gear-wann-minimal-wann-maximal-reisen/index.html">
+      <img class="pps-card-hero" src="https://prophotoskills.github.io/pps-assets/images/T10_L08_travel-light-vs-full-gear_2_1553x1024_k.webp" alt="Travel light vs. Full Gear – wann minimal, wann maximal reisen">
+      <div class="pps-card-body">
+        <span class="pps-card-kapitel">Kapitel 8</span>
+        <h2 class="pps-card-title">Travel light vs. Full Gear – wann minimal, wann maximal reisen</h2>
+      </div>
+    </a>
+
+    <a class="pps-card" href="https://prophotoskills.github.io/content/t10_l09_kreativer-blick-unterwegs-bilder-die-schon-auf-der-reise-entstehen/index.html">
+      <img class="pps-card-hero" src="https://prophotoskills.github.io/pps-assets/images/T10_L09_Kreativer-Blick-unterwegs_1553x1024_k.webp" alt="Kreativer Blick unterwegs – Bilder, die schon auf der Reise entstehen">
+      <div class="pps-card-body">
+        <span class="pps-card-kapitel">Kapitel 9</span>
+        <h2 class="pps-card-title">Kreativer Blick unterwegs – Bilder, die schon auf der Reise entstehen</h2>
+      </div>
+    </a>
+
+    <a class="pps-card" href="https://prophotoskills.github.io/content/t10_l10_team-reisen-logistik-kosten-und-gruppendynamik/index.html">
+      <img class="pps-card-hero" src="https://prophotoskills.github.io/pps-assets/images/T10_L10_team-reisen_4_1553x1024_k.webp" alt="Team-Reisen – Logistik, Kosten und Gruppendynamik">
+      <div class="pps-card-body">
+        <span class="pps-card-kapitel">Kapitel 10</span>
+        <h2 class="pps-card-title">Team-Reisen – Logistik, Kosten und Gruppendynamik</h2>
+      </div>
+    </a>
+
+    <a class="pps-card" href="https://prophotoskills.github.io/content/t10_l11_hotels-unterkuenfte-was-ein-guter-standort-wirklich-ausmacht/index.html">
+      <img class="pps-card-hero" src="https://prophotoskills.github.io/pps-assets/images/T10_L11_hotels-unterkuenfte_1_1553x1024_k.webp" alt="Hotels & Unterkünfte – was ein guter Standort wirklich ausmacht">
+      <div class="pps-card-body">
+        <span class="pps-card-kapitel">Kapitel 11</span>
+        <h2 class="pps-card-title">Hotels & Unterkünfte – was ein guter Standort wirklich ausmacht</h2>
+      </div>
+    </a>
+
+    <a class="pps-card" href="https://prophotoskills.github.io/content/t10_l12_reise-als-inspirationsquelle-wie-neue-orte-dein-auge-schaerfen/index.html">
+      <img class="pps-card-hero" src="https://prophotoskills.github.io/pps-assets/images/T10_L12_Reise-als-Inspirationsquelle_1553x1024_k.webp" alt="Reise als Inspirationsquelle – wie neue Orte dein Auge schärfen">
+      <div class="pps-card-body">
+        <span class="pps-card-kapitel">Kapitel 12</span>
+        <h2 class="pps-card-title">Reise als Inspirationsquelle – wie neue Orte dein Auge schärfen</h2>
+      </div>
+    </a>
+
+    <a class="pps-card" href="https://prophotoskills.github.io/content/t10_l13_notfallplaene-unterwegs-wenn-fluege-ausfallen-oder-gepaeck-fehlt/index.html">
+      <img class="pps-card-hero" src="https://prophotoskills.github.io/pps-assets/images/T10_L13_Notfallplaene-unterwegs_3_1553x1024_k.webp" alt="Notfallpläne unterwegs – wenn Flüge ausfallen oder Gepäck fehlt">
+      <div class="pps-card-body">
+        <span class="pps-card-kapitel">Kapitel 13</span>
+        <h2 class="pps-card-title">Notfallpläne unterwegs – wenn Flüge ausfallen oder Gepäck fehlt</h2>
+      </div>
+    </a>
+
+    <a class="pps-card" href="https://prophotoskills.github.io/content/t10_l14_nachhaltiges-reisen-green-choices-in-der-fotoindustrie/index.html">
+      <img class="pps-card-hero" src="https://prophotoskills.github.io/pps-assets/images/T10_L14_nachhaltiges-reisen_3_1553x1024_k.webp" alt="Nachhaltiges Reisen – Green Choices in der Fotoindustrie">
+      <div class="pps-card-body">
+        <span class="pps-card-kapitel">Kapitel 14</span>
+        <h2 class="pps-card-title">Nachhaltiges Reisen – Green Choices in der Fotoindustrie</h2>
+      </div>
+    </a>
+
+    <a class="pps-card" href="https://prophotoskills.github.io/content/t10_l15_travel-mindset-gelassenheit-als-wichtigste-ressource/index.html">
+      <img class="pps-card-hero" src="https://prophotoskills.github.io/pps-assets/images/T10_L15_Travel-Mindset_1553x1024_k.webp" alt="Travel-Mindset – Gelassenheit als wichtigste Ressource">
+      <div class="pps-card-body">
+        <span class="pps-card-kapitel">Kapitel 15</span>
+        <h2 class="pps-card-title">Travel-Mindset – Gelassenheit als wichtigste Ressource</h2>
+      </div>
+    </a>
+
+  </div>
+</div>
+</body>
+</html>
